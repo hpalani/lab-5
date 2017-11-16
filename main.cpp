@@ -1,7 +1,7 @@
 /*
  NAME: Harish Palani
  CRN: 41600
- ASSIGNMENT: Lab 4
+ ASSIGNMENT: Lab 5
  SOURCES: stackoverflow.com
  */
  
@@ -60,7 +60,7 @@ int main() {
             cin >> y;
         }
         
-        while (y < 1 || y > x) { // Check if y is negative or zero
+        while (y < 1 || y > x) { // Check if y is negative, zero, or > x
             cout << "\n"
                  << "Make sure your input is positive"
                  << " "
